@@ -1,6 +1,7 @@
 # DIST-Deep-Interaction-Sentiment-Transformer
 
-[中文]||English
+[中文](https://github.com/triangleXIV/DIST-Deep-Interaction-Sentiment-Transformer/blob/main/swin/README.md)||English
+
 This code is a specific implementation of sentiment analysis using the Zhongguancun dataset. To fully run this code, you need to perform the following steps:
 
 ## 1.Download the Dataset
