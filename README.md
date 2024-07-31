@@ -21,10 +21,14 @@ RoBERTa-ZH: https://huggingface.co/IDEA-CCNL/Erlangshen-Roberta-110M-Sentiment
 
 Swin-Transformer: https://github.com/microsoft/Swin-Transformer
 
-根据自己的需要选择Deberta或者RoBERTa模型(pretrains文件夹)，Deberta模型相较于RoBERTa精度更高(差距在1~2%)，但显存占用与训练时长均翻倍。
+根据自己的需要选择DeBERTa([onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxZ9oL-ZCEXMgxMA?e=YEA7Bo))||[123pan](https://1drv.ms/u/s!Akl56EV1csnmoxnRe49FfF3aBpfb?e=jhp7BC))或者RoBERTa([onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxdO44_IGvg4Eg2F?e=O9K6ZY))||[123pan](https://1drv.ms/u/s!Akl56EV1csnmoxnRe49FfF3aBpfb?e=jhp7BC))模型(pretrains文件夹)，Deberta模型相较于RoBERTa精度更高(差距在1~2%)，但显存占用与训练时长均翻倍。
 
 ## 4.下载持久化保存数据(非必要)
 由于数据的预处理需要耗费大量的时间，这一步直接提供经过预处理后的数据，将其放入datasets文件夹解压即可，如果不下载持久化保存数据，请确保电脑有16G显存并等待大约1个小时完成数据的预处理。
+
+DeBERTa: [onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxQQbvZzdAfy7GDP?e=eUWK3v)
+
+RoBERTa: [onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxMqYytx4Z9BKdGm?e=n4Zeeu)
 
 ## 5.训练
 确保项目整体框架如下所示，执行main.py即可
