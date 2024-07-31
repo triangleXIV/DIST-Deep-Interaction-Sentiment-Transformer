@@ -7,7 +7,7 @@
 
 MIMN: https://github.com/xunan0812/MIMN
 
-或者选择经过处理后的文件(datasets文件夹)：[onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxnRe49FfF3aBpfb?e=jhp7BC)||[123pan](https://1drv.ms/u/s!Akl56EV1csnmoxghAlL0TnfUDZWd?e=cFmm5O)
+或者选择经过处理后的文件(datasets文件夹)：[onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxnRe49FfF3aBpfb?e=jhp7BC)||[123pan](https://www.123pan.com/s/f3giVv-F1l3H.html)
 
 ## 2.补全缺失的信息
 从中关村数据集找到multi_jsonData文件夹，将其放到项目的根目录，依此执行construct.py shuffle.py,重新构建数据集用于构建缺失的语义信息。
