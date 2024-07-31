@@ -1,5 +1,7 @@
 # DIST-Deep-Interaction-Sentiment-Transformer
 
+中文||[English](https://github.com/triangleXIV/DIST-Deep-Interaction-Sentiment-Transformer/blob/main/README.md)
+
 本代码为使用中关村数据集完成情感分析的具体实现，为了完整运行此代码，需要执行以下操作
 
 ## 1.下载数据集
