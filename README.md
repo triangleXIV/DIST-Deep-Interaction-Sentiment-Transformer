@@ -32,3 +32,15 @@ RoBERTa: [onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxMqYytx4Z9BKdGm?e=n4Zeeu)
 
 ## 5.训练
 确保项目整体框架如下所示，执行main.py即可
+```
+├─datasets
+│  ├─dev
+│  │  └─swin
+│  ├─img
+│  ├─test
+│  │  └─swin
+│  └─train
+│      └─swin
+├─pretrains
+└─swin
+```
