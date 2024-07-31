@@ -44,3 +44,7 @@ RoBERTa: [onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxMqYytx4Z9BKdGm?e=n4Zeeu)
 ├─pretrains
 └─swin
 ```
+
+## (额外)Twitter数据集训练
+如果要进行Twitter15/17数据集的训练，下载Twitter数据集并将图片文件夹改名为img,并且将train，dev，test.txt文件放入datasets文件夹,用本项目的replace文件夹里的两个py文件覆盖原本的根目录文件即可。
+Twitter15/17:[onedrive](https://1drv.ms/u/s!Akl56EV1csnmoxghAlL0TnfUDZWd?e=cFmm5O)
