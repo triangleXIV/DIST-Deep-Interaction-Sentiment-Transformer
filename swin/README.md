@@ -9,7 +9,7 @@
 <div align="center">
 <img src="https://github.com/triangleXIV/DIST-Deep-Interaction-Sentiment-Transformer/blob/main/swin/1.jpg" alt="Image text" width="25%">
 </div>
-简单来说，我认为我的这篇论文算是对HIMT模型的增量研究，我在阅读这篇论文的时候，发现他使用了Multi-ZOL和Twitter一共三个数据集，明明HIMT这个模型在Multi-ZOL这个中文数据集上提升比英文的Twitter数据集提升要显著，然而这篇论文和相关的代码却着重分析的是Twitter这个英文数据集，所以有了一丝灵感的我，决定顺着这个论文的思路，完成中文的Multi-ZOL数据集相关研究，于是有了这篇论文。
+简单来说，我认为我的这篇论文算是对[HIMT](https://github.com/NUSTM/HIMT)模型的增量研究，我在阅读这篇论文的时候，发现他使用了Multi-ZOL和Twitter一共三个数据集，明明HIMT这个模型在Multi-ZOL这个中文数据集上提升比英文的Twitter数据集提升要显著，然而这篇论文和相关的代码却着重分析的是Twitter这个英文数据集，所以有了一丝灵感的我，决定顺着这个论文的思路，完成中文的Multi-ZOL数据集相关研究，于是有了这篇论文。
 
 首先，我找到了Multi-ZOL数据集（没有标点）然后开始训练，不管是八个周期还是十个周期，按照我的模型跑，指标几乎是不变的，64-66%左右，（论文里写低了，一开始跑得时候可能运气太差了，后面模型又跑了几次，没有标点就是64-66%左右）。
 
